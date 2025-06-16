@@ -111,7 +111,7 @@ function App() {
                             onClick={() => toggleCompletion(user.id, user.completed)}
                             className={`p-2 ${user.completed ? 'bg-yellow-500' : 'bg-green-500'} text-white rounded`}
                           >
-                            {user.completed ? '未完了' : '完了'}
+                            {user.completed ? '完了' : '未完了'}
                           </button>
                         </td>
                       </tr>
